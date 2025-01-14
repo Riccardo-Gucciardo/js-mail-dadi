@@ -8,16 +8,11 @@
 //Nota:2
 //Non è necessario provvedere alla validazione delle email
 
-const mail = ["pippo@gmail.com","giovanni@gmail.com","luca@gmail.com","vito@gmail.com"]      
-prompt = (`inserisci la tua mail`)
-let mailP = mail.isEmpty 
-console.log(mailP)
-
-for(let i = 0 ; i < mail.length; i++){
+const mail = ["pippo@gmail.com","giovanni@gmail.com","luca@gmail.com","vito@gmail.com"] 
+let checkMail = prompt("scrivi la tua mail")
 
 
 
-}
 
 
 
