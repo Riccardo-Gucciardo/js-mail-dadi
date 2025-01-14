@@ -9,7 +9,13 @@
 //Non è necessario provvedere alla validazione delle email
 
 const mail = ["pippo@gmail.com","giovanni@gmail.com","luca@gmail.com","vito@gmail.com"] 
-let checkMail = prompt("scrivi la tua mail")
+let checkMail = prompt("scrivi la tua mail");
+let booleaner = "".match(mail)
+
+
+
+
+console.log();
 
 
 
