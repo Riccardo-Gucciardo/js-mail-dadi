@@ -8,9 +8,27 @@
 //Nota:2
 //Non è necessario provvedere alla validazione delle email
 
-const mail = ["pippo@gmail.com","giovanni@gmail.com","luca@gmail.com","vito@gmail.com"] 
+let mail = ["pippo@gmail.com","giovanni@gmail.com","luca@gmail.com","vito@gmail.com"] 
 let checkMail = prompt("scrivi la tua mail");
-let booleaner = "".match(mail)
+let booleaner = false
+
+for(let i = 0; i < mail.length; i++){
+    let singoloElemento = mail[i];
+
+    if( singoloElemento === checkMail){
+        booleaner = true 
+
+    }
+
+}
+if(Boolean === true){
+    console.log("ottimo puoi accedere alla festa ");
+    
+}
+else{
+    console.log("peccato non puoi entrare");
+    
+}
 
 
 
